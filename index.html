@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Sidebar</title>
+  </head>
+  <body>
+    <nav class="sidebar">
+      <div class="sidebar_content">
+        <div class="user">
+          <img class="user_avatar" src="Images/user.png" alt="avatar" />
+          <p class="user_infos">
+            <span class="item-description"> Ravel Silva </span>
+            <span class="item-description"> Desenvolvedor Web </span>
+          </p>
+        </div>
+        <ul class="side_itens">
+          <li class="side-item active">
+            <a href="#">
+              <i class="material-symbols-outlined">dashboard</i>
+              <span class="item-description"> Dashboard </span>
+            </a>
+          </li>
+          <li class="side-item">
+            <a href="#"
+              ><i class="material-symbols-outlined">person</i>
+              <span class="item-description"> Usuário </span></a
+            >
+          </li>
+          <li class="side-item">
+            <a href="#"
+              ><i class="material-symbols-outlined">notifications</i>
+              <span class="item-description">Notificações</span></a
+            >
+          </li>
+          <li class="side-item">
+            <a href="#"
+              ><i class="material-symbols-outlined">calendar_month</i>
+              <span class="item-description">Reuniões</span></a
+            >
+          </li>
+          <li class="side-item">
+            <a href="#"
+              ><i class="material-symbols-outlined">image</i>
+              <span class="item-description">Imagens</span></a
+            >
+          </li>
+          <li class="side-item">
+            <a href="#"
+              ><i class="material-symbols-outlined">settings</i>
+              <span class="item-description">Ajustes</span></a
+            >
+          </li>
+        </ul>
+        <div class="open_btn">
+          <span class="material-symbols-outlined open_btn_icon">
+            chevron_right
+          </span>
+        </div>
+      </div>
+      <div class="logout">
+        <button class="logout_btn">
+          <i class="material-symbols-outlined">logout</i>
+          <span class="item-description">Logout</span>
+        </button>
+      </div>
+    </nav>
+    <main>
+      <h1>Sidebar</h1>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
